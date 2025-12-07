@@ -1,10 +1,13 @@
 ---
 marp: true
 title: Product Documentation Presentation
-theme: custom-theme
 paginate: true
 footer: "Page: $page / $total"
+math: true
 ---
+
+<!-- theme: custom-theme -->
+<!-- class: lead -->
 
 <style>
 /* ===== Custom Theme ===== */
@@ -34,38 +37,37 @@ h1 {
 ---
 
 # Overview of the System  
+
 This presentation documents the software product, workflow, and API endpoints.
 
 - Version-controllable  
-- Convertible to PDF/HTML/PPTX  
-- Styled with Marp theme  
+- Exportable to PDF/HTML/PPTX  
+- Styled with Marp directives and CSS  
+- Background images included  
 
 ---
 
-# Background Image Example
-
-![bg](https://images.unsplash.com/photo-1555066931-4365d14bab8c)
+<!-- backgroundImage: url(https://images.unsplash.com/photo-1555066931-4365d14bab8c) -->
+<!-- backgroundSize: cover -->
 
 # System Visualization  
-Distributed system overview.
+
+A high-level illustration of distributed software systems.
 
 ---
 
 # Custom Styled Slide
 
 <div class="custom-box">
-This documentation presentation uses:
-- Custom Marp theme  
-- Embedded CSS styling  
-- Page numbers  
-- Background images  
+This slide uses custom styling through **Marp directives**  
+and embedded CSS to enhance visual clarity.  
 </div>
 
 ---
 
 # Mathematical Equations  
 
-Algorithmic complexity example:
+Algorithmic complexity examples:
 
 \[
 T(n) = O(\log n)
@@ -89,4 +91,5 @@ T(n) = \sum_{i=1}^n \sum_{j=1}^n 1 = O(n^2)
 ---
 
 # Thank You  
-For queries: **24f2008074@ds.study.iitm.ac.in**
+
+For further communication: **24f2008074@ds.study.iitm.ac.in**
